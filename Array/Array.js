@@ -17,7 +17,7 @@ class MyArray {
     }
 
     getCapacity() {
-        return data.length;
+        return this.data.length;
     }
 
     isEmpty() {
