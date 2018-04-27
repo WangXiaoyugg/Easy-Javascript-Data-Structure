@@ -58,7 +58,7 @@ class MyArray {
     }
 
     resize(newCapacity) {
-        let newData = new Array(newCapacity);
+        let newData = new Array(Math.floor(newCapacity));
         for(let i = 0; i < this.data.length; i++){
             newData[i] = this.data[i];    
         }
