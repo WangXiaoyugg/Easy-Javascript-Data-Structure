@@ -29,3 +29,16 @@
 - 数组的get,set利用索引， 时间复杂度为 O(1)
 - 数组的查找，利用循环比较，时间复杂度为 O(n)
 
+### 栈
+- 栈是数组的子类
+- 栈的应用
+  1. 编辑器的撤销操作
+  2. 操作系统的系统栈，保存系统运行的上下文
+  3. 括号的匹配，[leetCode 第20题](https://leetcode-cn.com/problems/valid-parentheses/description/)
+- 栈的操作
+  1. push O(1)
+  2. pop O(1)
+  3. peek O(1)
+  4. getSize O(1)
+  5. isEmpty O(1) 
+
