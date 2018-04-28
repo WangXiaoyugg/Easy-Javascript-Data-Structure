@@ -40,5 +40,31 @@
   2. pop O(1)
   3. peek O(1)
   4. getSize O(1)
-  5. isEmpty O(1) 
+  5. isEmpty O(1)
+
+### 队列
+- 数组队列
+  1. 数组队列操作
+    - enqueue O(1)
+    - dequeue O(n)
+    - getFront O(1)
+    - getSize O(1)
+    - isEmpty O(1)
+- 循环队列
+  1. 循环队列操作
+    - enqueue O(1) 均摊
+    - dequeue O(1) 均摊
+    - getFront O(1)
+    - getSize O(1)
+    - isEmpty O(1)
+  2. 循环队列的条件
+    - tail === front 队列为空
+    - (tail + 1) % data.length === front  队列已满
+    - 循环队列会有意浪费一个空间，所以capactity + 1;
+    - tail = (tail + 1) % data.length
+    - front = (front + 1) % data.length
+
+- 循环队列和数组队列的比较
+  1. 循环队列的在操作数越大，性能越好
+  2. 循环队列的出队是O(1), 数组组队列是O(n);
 
