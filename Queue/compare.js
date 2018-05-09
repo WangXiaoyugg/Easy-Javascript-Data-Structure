@@ -18,7 +18,7 @@ function testQueue(queue, opCount) {
 }
 
 function main() {
-    let opCount = 10000;
+    let opCount = 20000;
     let arrayQueue = new ArrayQueue();
     let time1 = testQueue(arrayQueue, opCount);
     console.log(`ArrayQueue, time: ${time1}s`);
