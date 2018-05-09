@@ -91,3 +91,5 @@ const template = `The nationalism of Hamilton was undemocratic. The democracy of
 // 寻找数组中第 K 大的元素
 // http://www.cnblogs.com/wintersweetwang/p/4380810.html
 
+// [Smin, Smax] X, b
+
